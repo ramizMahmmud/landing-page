@@ -1,10 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    color: white;
+    
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* hero baner */
 .header {
+    color: white;
     background-color: #1F2937;
     padding: 10px 15% 50px 15%;
 }
@@ -52,4 +55,33 @@
     padding: 7px;
     border-radius: 8%;
     font-weight: bold;
+}
+
+/* Projects */
+.projects {
+    padding: 10px 15% 50px 15%;   
+}
+.projects > h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.project-lists {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.project > div {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: rgb(10, 127, 143) solid;
+    margin: 10px 0 10px 0;
+}
+.project > p {
+    text-align: center;
+    width: 200px;
+    height: auto;
+   
 }
