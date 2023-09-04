@@ -4,6 +4,10 @@
     
     font-family: Arial, Helvetica, sans-serif;
 }
+h2 {
+    text-align: center;
+    padding: 20px;
+}
 
 /* hero baner */
 .header {
@@ -61,14 +65,12 @@
 .projects {
     padding: 10px 15% 50px 15%;   
 }
-.projects > h2 {
-    text-align: center;
-    padding: 20px;
-}
+
 
 .project-lists {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 
@@ -84,4 +86,22 @@
     width: 200px;
     height: auto;
    
+}
+
+.about {
+    padding: 10px 15% 50px 15%;
+    background-color: #e5e7eb;
+}
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    gap : 50px;
+    
+}
+
+.about-img {
+    width: 400px;
+    height: auto;
+
+
 }
