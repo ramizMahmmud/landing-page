@@ -87,6 +87,7 @@ h2 {
     height: auto;
    
 }
+/* about */
 
 .about {
     padding: 10px 15% 50px 15%;
@@ -104,4 +105,46 @@ h2 {
     height: auto;
 
 
+}
+
+/* contact */
+.contact {
+    padding: 10px 15% 50px 15%;
+    background-color: #c8dbf5;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: stretch;
+}
+.btn {
+    padding: 10px 15% 50px 15%;  
+    background-color:  #c8dbf5;
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+.home-button {
+    text-decoration: none;
+    padding: 10px 50px 10px 50px;
+    background-color: rgb(48, 117, 150);
+    border-radius: 10px;
+    border: rgb(53, 49, 49) solid 1px;
+    
+}
+.submit {
+    padding: 10px 50px 10px 50px;
+    border-radius: 10px;
+    background-color: rgb(48, 117, 150);
+   
+}
+
+.footer {
+    padding: 10px 15% 50px 15%;
+    background-color:  #1F2937;
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
